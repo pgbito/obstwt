@@ -1,19 +1,30 @@
 # obstwt
 utils para stalkear won
-## OBSINSTA
-Utilidad para descargar los seguidores de alguien.
-### Como utilizar
+## COMO CONSEGUIR 
+
 
 Primero tener al menos Python 3.9 o una version mas nueva
 Necesitaras descargar la ultima version de obstwt(https://github.com/pgbito/obstwt/archive/refs/heads/main.zip)
+Extraer sus contenidos en una carpeta
+Y abrir un terminal
+## INSTAVIEWER
+Utilidad para visualizar la diferencia entre dos archivos JSON de seguidores (se consiguen con OBSINSTA)
+![imagen](https://github.com/pgbito/obstwt/assets/84261118/31b4a53e-e290-482b-862a-ac6028fdeab3)
 
-Extraer sus contenidos
-Y abrir una terminal (Ctrl Derecho+Shift -> Abrir powershell)
+
+### Como utilizar:
+```python instaviewer.py```
+
+
+## OBSINSTA
+Utilidad para descargar los seguidores de alguien.
+En la carpeta del repositorio abres la terminal (Ctrl Derecho+Shift -> Abrir powershell)
 Despues conseguir el session ID
-Y escribir eso en la terminal
+
 ```cmd
 python obsinsta.py -u USUARIO_A_STALKEAR -s EL_SESSION_ID
-
+REM Por ejemplo:
+python obsinsta.py -u ayeshaerotica69 -s EL_SESSION_ID
 ```
 
 #  Como conseguir el session ID
